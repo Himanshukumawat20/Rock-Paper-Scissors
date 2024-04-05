@@ -43,7 +43,7 @@ if choose == "0":
     elif system == 2:
         print(f"Computer chose:\n{scissors}\nYou win")
 elif choose == "1":
-    print(rock)
+    print(paper)
     if system == 0:
         print(f"Computer chose:\n{rock}\nYou lose")
     elif system == 1:
@@ -51,7 +51,7 @@ elif choose == "1":
     elif system == 2:
         print(f"Computer chose:\n{scissors}\nYou win")
 if choose == "2":
-    print(rock)
+    print(scissors)
     if system == 0:
         print(f"Computer chose:\n{rock}\nYou Lose")
     elif system == 1:
